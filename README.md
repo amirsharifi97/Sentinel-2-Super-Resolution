@@ -1,11 +1,11 @@
 # Super-Resolution of Sentinel-2 RGB Images with VENµS Reference Images Using SRResNet CNNs
-Super-resolution (SR) is a well-established technique used to enhance the resolution of low-resolution images. In this paper, we introduce a novel approach for the super-resolution of Sentinel-2 10 m RGB images using higher-resolution Venus 5 m RGB images. The proposed method takes advantage of a modified SRResNet network, integrates perceptual loss based on the VGG network, and incorporates a learning rate decay strategy for improved performance. By leveraging higher-resolution VENµS 5 m RGB images as reference images, this approach aims to generate high-quality super-resolved images of Sentinel-2 10 m RGB images. The modified SRResNet network was designed to capture and learn underlying patterns and details present in Venus images, enabling it to effectively enhance the resolution of Sentinel-2 images. In addition, the inclusion of perceptual loss based on the VGG network helps preserve important visual features and maintain the overall image quality.
-
+Super-Rsolution (SR) is a well-established technique used to enhance the resolution of low-resolution images. In this paper, we introduce a novel approach for the super-resolution of Sentinel-2 10 m RGB images using higher-resolution Venus 5 m RGB images. The proposed method takes advantage of a modified SRResNet network, integrates perceptual loss based on the VGG network, and incorporates a learning rate decay strategy for improved performance. By leveraging higher-resolution VENµS 5 m RGB images as reference images, this approach aims to generate high-quality super-resolved images of Sentinel-2 10 m RGB images. The modified SRResNet network was designed to capture and learn underlying patterns and details present in Venus images, enabling it to effectively enhance the resolution of Sentinel-2 images. In addition, the inclusion of perceptual loss based on the VGG network helps preserve important visual features and maintain the overall image quality.
+```
 https://doi.org/10.3390/ECRS2023-16863
+```
 
+We used SEN2VENµS paired tensors to do this research.
 
-
-we used SEN2VENµS paired tensors to do this research.
 ## 1 Installation
 First of all, You need install packages. run below code:
 ```
