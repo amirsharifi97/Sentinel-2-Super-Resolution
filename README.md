@@ -17,6 +17,10 @@ You have to load your data in tensor form (as we used VENµS images). Geolocatio
 
 ## 3 Training
 In this part you can modify hyper parameters based on your resource. here we used learning rate decay to improve training and learning process. in each epoch if validation loss is better than the previous epoch, the model state will be saved.
+![environsciproc-29-00080-g001](https://github.com/user-attachments/assets/83a2efd5-1096-4e28-be7f-174d24107cea)
+![output](https://github.com/user-attachments/assets/494abe17-ba55-435c-bf1c-22342031cd98)
+![output2](https://github.com/user-attachments/assets/458c6d78-4c86-47a9-a521-1a4571bf89c0)
+
 
 ## 4 Test
 In this part we load our Test image in tensor form and also load the best state model. here you can compare input data, ground-truth and output.
