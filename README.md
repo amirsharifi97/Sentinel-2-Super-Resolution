@@ -11,3 +11,8 @@ First of all, You need install packages. run below code:
 ```
 !pip install -r requirements.txt
 ```
+
+## 1 Load Data
+You have to load your data in tensor form (as we used VENµS images). Geolocation is not necessary.
+
+
