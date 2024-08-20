@@ -1,9 +1,9 @@
-# Sentinel-2 SuperResolution
-Super-Resolution of Sentinel-2 RGB Images with VENµS Reference Images
+# Super-Resolution of Sentinel-2 RGB Images with VENµS Reference Images Using SRResNet CNNs
+Super-resolution (SR) is a well-established technique used to enhance the resolution of low-resolution images. In this paper, we introduce a novel approach for the super-resolution of Sentinel-2 10 m RGB images using higher-resolution Venus 5 m RGB images. The proposed method takes advantage of a modified SRResNet network, integrates perceptual loss based on the VGG network, and incorporates a learning rate decay strategy for improved performance. By leveraging higher-resolution VENµS 5 m RGB images as reference images, this approach aims to generate high-quality super-resolved images of Sentinel-2 10 m RGB images. The modified SRResNet network was designed to capture and learn underlying patterns and details present in Venus images, enabling it to effectively enhance the resolution of Sentinel-2 images. In addition, the inclusion of perceptual loss based on the VGG network helps preserve important visual features and maintain the overall image quality.
 
 https://doi.org/10.3390/ECRS2023-16863
 
-In this we tried to enhance spatial resolution of sentinel-2 images in visible bands using real ground-truth data VENµS images.
+
 
 we used SEN2VENµS paired tensors to do this research.
 ## 1 Installation
@@ -23,8 +23,23 @@ In this part we load our Test image in tensor form and also load the best state 
 ## 4 Calculate Metrics and Evaluation
 here we calculate PSNR and SSIM for each training, validation and test process.
 
+## 5 Citation
+If you use this work in any way, please mention this citation:
+```
 
-
+@Article{ECRS2023-16863,
+AUTHOR = {Sharifi, Amir and Shah-Hosseini, Reza},
+TITLE = {Super-Resolution of Sentinel-2 RGB Images with VENµS Reference Images Using SRResNet CNNs},
+JOURNAL = {Environmental Sciences Proceedings},
+VOLUME = {29},
+YEAR = {2024},
+NUMBER = {1},
+ARTICLE-NUMBER = {80},
+URL = {https://www.mdpi.com/2673-4931/29/1/80},
+ISSN = {2673-4931},
+DOI = {10.3390/ECRS2023-16863}
+}
+```
 
 
 
