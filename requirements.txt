@@ -1,0 +1,10 @@
+torch
+torch.nn
+torchvision
+matplotlib
+numpy
+cv2
+skimage
+torchviz
+graphviz
+torchsummary
