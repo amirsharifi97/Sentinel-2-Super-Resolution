@@ -20,7 +20,7 @@ In this part you can modify hyper parameters based on your resource. here we use
 
 ## 4 Test
 In this part we load our Test image in tensor form and also load the best state model. here you can compare input data, ground-truth and output.
-## 4 Calculate Metrics
+## 4 Calculate Metrics and Evaluation
 here we calculate PSNR and SSIM for each training, validation and test process.
 
 
